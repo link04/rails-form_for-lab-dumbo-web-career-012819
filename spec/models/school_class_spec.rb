@@ -4,7 +4,7 @@ require 'rails_helper'
 
 describe SchoolClass do
   before(:each) do
-    @school_class = SchoolClass.create!(title: "School", last_name: "Targaryen")
+    @school_class = SchoolClass.create!(title: "School", room_: "Targaryen")
   end
 
   it 'can be created' do
