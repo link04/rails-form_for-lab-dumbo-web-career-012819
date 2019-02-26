@@ -12,4 +12,3 @@ describe SchoolClass do
   end
 
 end
-end
