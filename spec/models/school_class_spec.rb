@@ -2,7 +2,7 @@ require 'rails_helper'
 
 require 'rails_helper'
 
-describe Student do
+describe SchoolClass do
   before(:each) do
     @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
   end
