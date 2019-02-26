@@ -1,5 +1,15 @@
 require 'rails_helper'
 
-RSpec.describe SchoolClass, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+require 'rails_helper'
+
+describe Student do
+  before(:each) do
+    @student = Student.create!(first_name: "Daenerys", last_name: "Targaryen")
+  end
+
+  it 'can be created' do
+    expect(@student).to be_valid
+  end
+
+end
 end
