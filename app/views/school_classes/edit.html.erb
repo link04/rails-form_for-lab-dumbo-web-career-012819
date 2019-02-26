@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Student Update</h1>
+  <%= form_for @school_class do |f| %>
+    <%= f.label :title, 'First Name' %>
+    <%= f.text_field :title %>
+    <%= f.label :room_number, 'Last Name' %>
+    <%= f.text_field :room_number %>
+    <%= f.submit %>
+  <% end %>
+</div>
